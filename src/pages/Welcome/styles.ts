@@ -62,7 +62,6 @@ export const styles = StyleSheet.create({
     height: 260,
     backgroundColor: colors.boxType.water,
     borderRadius: 100,
-    // transform: [{ rotate: '30deg' }],
     alignItems: 'center',
     justifyContent: 'center',
   },

@@ -9,10 +9,10 @@ const RotatingImage = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setRotation((prevRotation) => prevRotation + 30); // Aumenta a rotação em 30 graus a cada intervalo
-        }, 1000); // Define o intervalo de tempo em milissegundos (aqui, a cada 1 segundo)
+            setRotation((prevRotation) => prevRotation + 30); 
+        }, 1000);
 
-        return () => clearInterval(interval); // Limpa o intervalo ao desmontar o componente
+        return () => clearInterval(interval);
     }, []);
     return (
         <View style={styles.wrapperIcon}>

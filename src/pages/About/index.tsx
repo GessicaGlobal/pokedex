@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useRoute, useNavigation } from '@react-navigation/native';
-import { Alert, ScrollView, Text, StatusBar } from "react-native";
+import { useRoute } from '@react-navigation/native';
+import { Alert, ScrollView, Text } from "react-native";
 import api from '../../service/api';
 import circle from '../../assets/img/circle.png';
 import pikachu from '../../assets/img/pikachu.png'
