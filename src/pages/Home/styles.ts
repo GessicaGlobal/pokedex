@@ -61,6 +61,33 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  bottom: {
+    width: '100%',
+    height: '15%',
+    backgroundColor: colors.background,
+    opacity: 0.9,
+    padding: 20,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  button: {
+    width: '100%',
+    height: 50,
+    borderRadius: 70,
+    backgroundColor: colors.boxType.water,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: colors.background,
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+ 
 });
 
 
