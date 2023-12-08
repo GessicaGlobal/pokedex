@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { styles, colors } from './styles';
 import { View, Text, Image } from "react-native";
 import pokeball from '../../assets/img/pokeballCard.png';

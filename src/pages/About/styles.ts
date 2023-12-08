@@ -87,8 +87,8 @@ export const styles = (type?: string) => {
             fontSize: 16,
             lineHeight: 19,
             fontStyle: 'normal',
-            fontWeight: 'bold',
-            color: colors.light_text,
+            fontWeight: '400',
+            color: 'white',
         },
         PokemonName: {
 

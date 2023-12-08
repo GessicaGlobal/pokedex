@@ -65,10 +65,10 @@ return StyleSheet.create({
   },
 
   PokemonId: {
-    fontWeight: 'bold',
+    fontWeight: '500',
     fontSize: 12,
     lineHeight: 14,
-    color: colors.light_text,
+    color:'white',
   },
 
   PokemonName: {

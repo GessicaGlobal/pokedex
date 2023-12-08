@@ -37,6 +37,15 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.background,
   },
+  inputStyle:{
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1,
+    paddingHorizontal: 10,
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+
   header: {
     width: windowWidth,
     height: 220,
@@ -62,31 +71,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
-  bottom: {
-    width: '100%',
-    height: '15%',
-    backgroundColor: colors.background,
-    opacity: 0.9,
-    padding: 20,
-    borderTopRightRadius: 20,
-    borderTopLeftRadius: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-
-  button: {
-    width: '100%',
-    height: 50,
-    borderRadius: 70,
-    backgroundColor: colors.boxType.water,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  buttonText: {
-    color: colors.background,
-    fontWeight: 'bold',
-    fontSize: 16,
-  },
+  
  
 });
 
